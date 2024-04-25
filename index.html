@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Joel Rojas</title>
+    <link rel="stylesheet" href="cv.css">
+    <style>
+        /* Nuevos estilos para la sección de experiencia */
+        .experience-item {
+            margin-bottom: 20px; /* Espacio entre elementos de experiencia */
+            overflow: hidden; /* Evita que el contenido flote alrededor de la imagen */
+        }
+
+        .experience-item img {
+            float: left; /* Imagen flotante a la izquierda */
+            margin-right: 10px;
+            max-width: 150px; /* Tamaño máximo de la imagen */
+            height: auto; /* Ajustar altura automáticamente */
+        }
+
+        .experience-info {
+            overflow: hidden; /* Evita que el texto flote alrededor de la imagen */
+        }
+
+        /* Estilo para el texto en negrita */
+        .bold-text {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#experiencia">Experiencia Laboral</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#intereses">Intereses</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Sobre mí</h2>
+        <p>Hola, soy Joel Rojas, un estudiante de arquitectura de plataforma de 20 años apasionado por la tecnología y el diseño web.</p>
+        <p>Desde que era joven, he estado fascinado por la forma en que la tecnología puede transformar nuestro mundo y mejorar nuestras vidas. Mi interés por la arquitectura de plataforma surge de mi deseo de combinar la estética y la funcionalidad para crear soluciones innovadoras y accesibles.</p>
+        <p>En mi tiempo libre, disfruto explorando nuevas tendencias en diseño web y desarrollo de aplicaciones, siempre buscando mejorar mis habilidades y aprender nuevas tecnologías. Me apasiona la idea de crear experiencias digitales que sean atractivas, intuitivas y útiles para los usuarios.</p>
+        
+    </section>
+    
+    <section id="educacion">
+        <h2>Educación</h2>
+        <div>
+            <img src="instituto.jpg" alt="Descripción de la imagen" style="float: left; margin-right: 10px;">
+            <p>Tecnológico Público (Instituto de Educación Superior Tecnológico Público)</p>
+            <p>Arquitectura de Plataforma</p>
+            <p>Año de inicio - Año de graduación</p>
+            <p>Otros cursos relevantes</p>
+            <ul>
+                <li><strong class="bold-text">Desarrollo web avanzado</strong></li>
+                <li><strong class="bold-text">Introducción a la programación en Java</strong></li>
+                <li><strong class="bold-text">Diseño de interfaces de usuario</strong></li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <div class="experience-item">
+            <img src="xyz.jpg" alt="Imagen relacionada con la experiencia laboral">
+            <div class="experience-info">
+                <p><strong class="bold-text">Desarrollador Web</strong> - Empresa XYZ - 2018-2020</p>
+                <p>Como desarrollador web en Empresa XYZ, trabajé en estrecha colaboración con equipos multidisciplinarios para garantizar la entrega oportuna y la satisfacción del cliente.</p>
+            </div>
+        </div>
+        <div class="experience-item">
+            <img src="abc.svg" alt="Otra imagen relacionada con la experiencia laboral">
+            <div class="experience-info">
+                <p><strong class="bold-text">Analista de Datos</strong> - Compañía ABC - 2016-2018</p>
+                <p>En mi papel como analista de datos en Compañía ABC, utilicé herramientas de análisis de datos para identificar tendencias, patrones y oportunidades de mejora.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <div class="project-info">
+                <img src="libro.jpg" alt="Imagen del Proyecto 1">
+                <p>Sistema de Gestión de Biblioteca - Desarrollo de un sistema web para la gestión eficiente de una biblioteca, permitiendo a los usuarios buscar y reservar libros, así como a los administradores administrar el inventario y generar informes.</p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <img src="comercio.jpg" alt="Imagen del Proyecto 2">
+                <p>Plataforma de Comercio Electrónico - Creación de una plataforma de comercio electrónico que permite a los usuarios comprar y vender productos en línea de manera segura y conveniente, incluyendo funciones de carrito de compras y pagos en línea.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="intereses">
+        <h2>Intereses</h2>
+        <p>Aquí puedes mostrar tus intereses.</p>
+        <ul class="interes-list">
+            <li>
+                <img src="dormir.jpg" alt="dormir">
+                <p>Dormir</p>
+            </li>
+            <li>
+                <img src="meditar.jpg" alt="meditar">
+                <p>Meditar</p>
+            </li>
+            <li>
+                <img src="comer.png" alt="comer">
+                <p>Comer</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en: tu@email.com</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en:</p>
+        <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_TELEFONO" target="_blank">
+            <img src="wasap.jpg" alt="WhatsApp">
+        </a>
+        <a href="https://www.facebook.com/TU_PAGINA_DE_FACEBOOK" target="_blank">
+            <img src="facebook.png" alt="Facebook">
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Joel Rojas - Todos
